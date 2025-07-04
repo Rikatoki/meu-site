@@ -1,18 +1,64 @@
+*{
+    height: 100%;
+}
 body {
-    background-color: rgb(7, 1, 54);
-    color: rgb(221, 223, 247);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    word-break: normal;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(2, 3, 80));
+    color: white;
 }
-
-
-a,img{
-    border-radius: 20%;
-    background-color: rgb(245, 238, 253);
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+header {
+    display: block;
+    height: 15%;
+    width: auto;
+    margin: 0px;
 }
-
-h1 {
-    font-size: x-large;
+main {
+    display: block;
+    border-style: solid;
+    border-radius: 10px;
+    height: 85%;
+    margin: 5px;
+    background-color: black;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+img {
+    width: 150px;
+    height: 175px;
+}
+img.redes{
+    width: 30px;
+    height: 30px;
+}
+ul{
+    height: 40px;
+}
+.main {
+    margin: 15px;
+    height: auto;
+}
+.header {
+    display: inline-block;
+    height: auto;
+    margin: 5px;
+}
+ul.header{
+    display: block;
+}
+#habilidade {
+    display: none;
+}
+.atalhos {
+    display: inline-block;
+    height: 20px;
+    width: 120px;
+    margin: 5px;
+    text-align: center;
+}
+a:hover {
+    font-size: large;
+}
+a:visited {
+    font-style: italic;
 }
