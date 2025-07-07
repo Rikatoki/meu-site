@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(204, 211, 167), rgb(112, 122, 17));
+    display: flexbox;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+div{
+    height: 700px;
+    width: auto;
+
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 1px 2px rgb(163, 163, 1);
+    font-family: 'Courier New', Courier, monospaco;
+    font-weight: bolder;
+}
+p{
+    margin: 10px 40px;
+    text-align: center;
+}
+img {
+    display: flex;
+    border: 10px black;
+    border-style: groove;
+    margin: auto;
+}
